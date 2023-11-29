@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    width: 750px;
+    height: 690px;
+    background-color: brown;
+  
+}
+.one{
+width: 20%;
+background-color: blue;
+margin: 20px;
+}
+.two{
+    width: 97%;
+    height: 20%;
+    margin: 75px 20px;
+    background-color: darksalmon;
+}
+.two_1{
+    width: 21%;
+    height: 30%;
+    background-color: cornflowerblue;
+    margin: 20px 20px;
+}
+.Form{
+    margin: 10px;
+    
+}
+.form{
+    margin: 10px;
+}
+.radio{
+    margin: 67px 10px 10px 9px;
+}
+.checkbox{
+    margin: 40px 10px 10px 9px;
+}
+button{
+    margin: 0px 10px 10px 9px;  
+    background-color: black;
+    color: white; 
+}
+select{
+    margin: 0px 10px 10px 9px;
+    background-color: black;
+    color: white;
+}

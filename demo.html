@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <div>
+                <!-- <label>Email</label> -->
+                <input required placeholder="Email" type="email" name="email">
+            </div>
+    
+            <div>
+                <!-- <label>Password</label> -->
+                <input required placeholder="Password" type="password" name="password">
+            </div>
+    
+            <div>
+                <!-- <label>Password Confirmation</label> -->
+                <input required placeholder="Confirm Password" type="password" name="confirm_password">
+            </div>
+        </div>
+        
+        <div>
+            <h3>Personal Information</h3>
+            <div>
+                <!-- <label>Name</label> -->
+                <input required placeholder="Name" type="text" name="name">
+            </div>
+
+            <div>
+                <br><label>Gender</label><br>
+                <input required type="radio" name="gender" value="M">
+                <label>Male</label><br>
+
+                <input required type="radio" name="gender" value="F">
+                <label>Female</label>
+                
+            </div>
+
+            <div>
+                <!-- <label>Age</label> -->
+                <br><input min="18" max="35" required placeholder="Age" type="number" name="age">
+            </div>
+
+            <div>
+                <!-- <label>Birth Date</label> -->
+                <br><input required placeholder="Birth Date" type="date" name="date">
+            </div>
+
+            <div>
+                <!-- <label>Phone</label> -->
+                <br><input required placeholder="Phone" type="number" name="phone">
+            </div>
+
+            <div>
+                <!-- <label>Favourite Color</label> -->
+                <br><input placeholder="Color" type="color" name="color">
+            </div>
+
+            <div>
+                <br><label>Skills (Check all that apply):</label><br>
+                <input type="checkbox" name="skill" value="cPlusPlus">
+                <label>C++</label>
+
+                <input type="checkbox" name="skill" value="front_end">
+                <label>Front-end</label>
+
+                <input type="checkbox" name="skill" value="python">
+                <label>Python</label>
+            </div>
+
+            <div>
+                <br><label>Country</label>
+                <select name="country">
+                    <option value="eg">Egypt</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="fr">France</option>
+                    <option value="gr">Germany</option>
+                    <option value="br">Brazil</option>
+                </select>
+            </div>
+
+            <div>
+                <br><label>CV</label>
+                <input required accept="application/pdf" placeholder="Upload your CV" type="file" name="cv">
+            </div>
+        </div>
+
+        <div>
+            <br><button type="submit">Ok</button>
+            <button type="reset">Clear</button>
+        </div>
+    </form>
+</body>
+</html>
